@@ -1,0 +1,27 @@
+.nav-bar{
+  float: right;
+  padding: 30px;
+
+}
+.logo{
+  /* height: 20px; */
+   /* border: 2px solid green; */
+}
+/* #logo-info{
+  float: none;
+} */
+.header{
+  /* height: 17vh; */
+  border: 2px solid grey;
+  position: sticky;
+}
+#crane{
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 grey;
+  margin-left: -15px;
+  float: left;
+}
+.homeSlideShow{
+  height: 100vh;
+  border: 1px solid purple
+}
