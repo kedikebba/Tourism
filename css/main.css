@@ -1,27 +1,36 @@
 .nav-bar{
   float: right;
-  padding: 30px;
-
-}
-.logo{
-  /* height: 20px; */
-   /* border: 2px solid green; */
-}
-/* #logo-info{
-  float: none;
-} */
-.header{
-  /* height: 17vh; */
-  border: 2px solid grey;
-  position: sticky;
+  padding: 10px;
+  /* padding-bottom: 0px; */
+  font-size: 20px;
+  /* position: fixed; */
 }
 #crane{
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 grey;
-  margin-left: -15px;
+  margin-left: -13px;
   float: left;
+  height: 12vh;
 }
 .homeSlideShow{
-  height: 100vh;
-  border: 1px solid purple
+  height: 50vh;
+  border: 1px solid purple;
+}
+.slideShow{
+  height: 50vh;
+  margin-left: -15px;
+  margin-right: -15px;
+  z-index: -1;
+  display: none;
+  position: relative;
+}
+.slides{
+  height: 50vh;
+  width: 100%;
+}
+.caption{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
 }

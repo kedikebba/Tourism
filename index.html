@@ -5,15 +5,16 @@
     <title>Tourism</title>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <div class="container-fluid">
       <!-- start of navigation bar -->
       <div class="row header">
-        <div class="col-xs-4 col-md-3 logo text-center">
+        <div class="col-xs-4 col-md-3 logo">
           <img id="crane" src="img/3.jpeg" alt="Ugandan crested crane">
-          <h1 id="logo-info">EXPLORE UGANDA</h1>
+          <h3 id="logo-info" class="text-center">EXPLORE UGANDA</h3>
         </div>
         <!-- <div class="col-xs-4 col-md-2">
           <h1 id="logo-info">EXPLORE UGANDA</h1>
@@ -27,17 +28,35 @@
           </ul>
         </div>
       </div>
+    </div>
       <!-- end of navigation bar -->
       <!-- start of vision section -->
+    <div class="container-fluid">
       <div class="row">
-        <!-- slide show -->
+        <div class="col-xs-12 col-md-12 homeSlideShow">
+          <div class="slideShow">
+            <img class="slides" src="img/mountains.jpg" alt="mountains">
+            <div class="caption">
+              <p>Mountains in Uganda</p>
+            </div>
+          </div>
+          <div class="slideShow">
+            <img class="slides" src="img/baskets.jpg" alt="baskets">
+            <div class="caption">
+              <p>Culture in Uganda</p>
+            </div>
+          </div>
+          <div class="slideShow">
+            <img class="slides" src="img/mountains.jpg" alt="hotels">
+            <div class="caption">
+              <p>Hotels in Uganda</p>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- end of vision section -->
       <!-- start of About Uganda -->
       <div class="row">
-        <div class="col-xs-12 col-md-12 homeSlideShow">
-
-        </div>
       </div>
       <!-- end of About Uganda -->
       <!-- start of cities & towns -->
@@ -57,6 +76,7 @@
       <!-- end of footer -->
     </div>
     <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
   </body>
 </html>
