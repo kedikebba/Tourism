@@ -7,15 +7,16 @@
 li{
   color: white;
 }
-#logo-info{
+/* #logo-info{
   float: right;
-}
+} */
 #crane{
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 grey;
+  /* box-shadow: 0 4px 8px 0 grey; */
   margin-left: -13px;
   float: left;
-  height: 12vh;
+  height: 15vh;
+  width: 150px;
 }
 .homeSlideShow{
   height: 100vh;
