@@ -1,7 +1,7 @@
 .nav-bar{
   float: right;
   padding: 10px;
-  /* padding-bottom: 0px; */
+  color: white;
   font-size: 20px;
   /* position: fixed; */
 }
@@ -42,4 +42,9 @@
 }
 .well{
   width: 300px;
+}
+.header{
+  background-color: black;
+  color: white;
+  
 }
