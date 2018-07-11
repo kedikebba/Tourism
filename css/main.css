@@ -4,14 +4,6 @@
   font-size: 20px;
   /* position: fixed; */
 }
-.logo, .nav-bar{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
-  background-color: #cae8ca;
-  border: 2px solid #4CAF50;
-}
 li{
   color: white;
 }
@@ -35,7 +27,7 @@ li{
   margin-right: -15px;
   z-index: -1;
   display: none;
-  position: relative;
+
 }
 .slides{
   height: 100vh;
@@ -56,6 +48,8 @@ li{
 .header{
   background: black;
   color: white;
+  position: sticky;
+  top: 0px;
 }
 .aboutUganda{
   height: 100vh;
