@@ -4,7 +4,7 @@
   font-size: 20px;
   /* position: fixed; */
 }
-li{
+li,.cities h1{
   color: white;
 }
 /* #logo-info{
@@ -52,7 +52,14 @@ li{
   position: sticky;
   top: 0px;
 }
-.aboutUganda{
-  height: 100vh;
-  padding-top: 20vh;
+.aboutUganda, .cities{
+  height: 85vh;
+  padding-top: 10vh;
+}
+.cities{
+  background-image: url("../img/wall-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 85vh; */
 }
