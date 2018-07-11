@@ -1,8 +1,58 @@
 .destTopPage{
-  height: 600px;
+  height: 50%;
 }
 .full-screen{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+#destRow{
+  height: 350px;
+  /* border: solid black; */
+  margin-top: 0px;
+  padding-left: 50px;
+  padding-right: 30px;
+
+}
+#destRow1{
+  height: 350px;
+  /* border: solid black; */
+  margin-top: 0px;
+  padding-left: 50px;
+  padding-right: 30px;
+  /* padding-top: 5px; */
+
+
+}
+#destColumn{
+  border: solid white;
+  width: 320px;
+  border-radius: 1px;
+  padding-top: 5px;
+  /* margin-top: 10px; */
+  /* box-shadow: 5px 5px 5px #888888; */
+
+  /* border-radius: 0px; */
+/*
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0, .65);
+-moz-box-shadow: 0 0 10px rgba(0,0,0, .65);
+box-shadow: 0 0 10px rgba(0,0,0, .65); */
+
+}
+
+.thumbnailClass:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+/* #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+} */
+/* #videoTest {
+height: 250px;
+} */
