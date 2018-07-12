@@ -121,7 +121,7 @@ iframe{
 .date{
   float: right;
 }
-.placeToVisit{
+.placeToVisit, .modal{
   display: none;
 }
 .mountains:hover{

@@ -21,4 +21,9 @@ $(document).ready(function(){
     $(".placeToVisit").show()
   })
 
+  $(".bookNow").submit(function(event){
+    event.preventDefault()
+    $(".modal").show()
+  })
+
 })
