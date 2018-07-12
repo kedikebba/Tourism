@@ -21,9 +21,16 @@ $(document).ready(function(){
     $(".placeToVisit").show()
   })
 
-  $(".bookNow").submit(function(event){
+  $(".caption").click(function(){
+    $("body").addClass("display")
+    $(".bookATrip").addClass("pop")
+    $(".bookATrip").show()
+
+  })
+
+  $("#bookNow").submit(function(event){
     event.preventDefault()
-    $(".modal").show()
+    alert("Registration Successful!!")
   })
 
 })
