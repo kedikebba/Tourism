@@ -1,5 +1,5 @@
 /*  CSS For the nav bar*/
-#parksnavbar {
+#citynavbar {
   height: 100px;
   padding-top: 200px;
   color: black;
@@ -7,7 +7,7 @@
 
 
 
-#parksNavlist  {
+#cityNavlist  {
   display: inline;
   list-style: none;
   overflow: hidden;
@@ -15,12 +15,12 @@
   padding: 0;
 }
 
-#parksNavlist li {
+#cityNavlist li {
   float: right;
   color: black;
 }
 
-#parksNavlist li a {
+#cityNavlist li a {
   display: block;
   color: black;
   text-align: left;
@@ -29,12 +29,12 @@
 }
 
 /* chnage the link color to #111(black)on hover */
-#parksNavlist li a:hover {
+#cityNavlist li a:hover {
   background-color: white;
   border-bottom: 5px solid darkgreen;
 }
 
-#parksNavlist li a:active {
+#cityNavlist li a:active {
   background-color: white;
   border-bottom: 5px solid darkgreen;
 }
