@@ -115,7 +115,7 @@
       <!-- bookATrip form -->
       <div class="row">
         <div class="col-xs-12 col-md-12">
-          <div class="bookATrip">
+          <div class="bookATrip text-center">
 
             <form class="form-horizontal">
               <h2>BOOK A TRIP</h2>
@@ -137,66 +137,44 @@
                   <input type="email" class="form-control" id="inputEmail" required>
                 </div>
               </div>
-              <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox"> Remember me
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div class="destination">
-                <h3>Destination Category</h3>
+              <div class="destinations">
+                <h3>Destination</h3>
                 <div class="dropdown">
                   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     Destinations
                     <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li>
-                      <a href="#">Mountains</a>
-                      <div class="dropdown">
+                    <li><a class="mountains">Mountains</a>
+                      <div class="dropdown placeToVisit">
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                           Places To Visit
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                           <li><a href="#">Mt.Elgon</a></li>
-                          <li><a href="#">Mt.Kilimanjaro</a></li>
-                          <li><a href="#">Mt.Muhavura</a></li>
-                          <li role="separator" class="divider"></li>
                           <li><a href="#">Mt.Rwenzori</a></li>
+                          <li><a href="#">Mt.Muhavura</a></li>
+                          <li><a href="#">Mt.Mufumbira</a></li>
                         </ul>
                       </div>
                     </li>
-                    <li>
-                      <a href="#">Parks</a>
-                      <div class="dropdown">
-                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                          Places To Visit
-                          <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                          <li><a href="#">Queen Elizabeth National Park</a></li>
-                          <li><a href="#">Semiliki National Park</a></li>
-                          <li><a href="#">Kidepo National Park</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">Murchison Falls National Park</a></li>
-                        </ul>
-                      </div>
-                    </li>
+                    <li><a href="#">Parks</a></li>
                     <li><a href="#">Lakes</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">Religious Sites</a></li>
+                    <li><a href="#">Religious sites</a></li>
                   </ul>
                 </div>
               </div>
               <div class="date">
-
+                <h3>Tour Dates</h3>
+                <label for="from">From</label>
+                <input id="from" type="datetime-local" value="2018-06-01T08:30">&nbsp
+                <label for="to">to</label>
+                <input id="to" type="datetime-local" value="2018-06-01T08:30">
               </div>
               <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
+                <div class="col-sm-offset-1 col-sm-10">
                   <button type="submit" class="btn btn-default">Book Now</button>
                 </div>
               </div>
