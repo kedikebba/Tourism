@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Tourism</title>
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -16,7 +17,7 @@
         <div class="col-xs-12 col-md-12 homeSlideShow">
           <div class="slideShow">
             <img class="slides" src="img/animals.jpg" alt="mountains">
-            <button type="submit" class="btn btn-lg caption well">Book A Trip</button>
+            <button type="button" class="btn btn-lg caption well">Book A Trip</button>
             <div class="slogan">
               <h1>You Love Nature?</h1>
               <h2><small> We Will Take You There</small></h2>
@@ -24,7 +25,7 @@
           </div>
           <div class="slideShow">
             <img class="slides" src="img/lakes.jpg" alt="lakes">
-            <button type="submit" class="btn btn-lg caption well">Book A Trip</button>
+            <button  type="button" class="btn btn-lg caption well">Book A Trip</button>
             <div class="slogan">
               <h1>You Love Nature?</h1>
               <h2><small> We Will Take You There</small></h2>
@@ -32,7 +33,9 @@
           </div>
           <div class="slideShow">
             <img class="slides" src="img/islands.jpg" alt="islands">
-            <button type="submit" class="btn btn-lg caption well">Book A Trip</button>
+            <button type="button" class="btn btn-lg caption well">Book A Trip</button>
+            <!-- <button data-toggle="modal" data-target=".bookATrip" type="button" class="btn btn-lg caption well">Book A Trip</button> -->
+
             <div class="slogan">
               <h1>You Love Nature?</h1>
               <h2><small> We Will Take You There</small></h2>
@@ -55,9 +58,9 @@
         </div>
         <div class="col-xs-7 col-md-9">
           <ul class="nav nav-pills nav-bar">
-            <li role="presentation"><a href="destination.html">Home</a></li>
-            <li role="presentation"><a href="#">Destinations</a></li>
-            <li role="presentation"><a href ="#S">Book A Trip</a></li>
+            <li role="presentation"><a href="#">Home</a></li>
+            <li role="presentation"><a href="destinations.html">Destinations</a></li>
+            <li role="presentation"><a href ="#">Book A Trip</a></li>
             <li role="presentation"><a href="#">About Uganda</a></li>
           </ul>
         </div>
@@ -188,9 +191,62 @@
       </div>
       <!-- end of bookATrip form -->
       <!-- start of footer -->
-      <div class="row">
+      <div class="container-fluid">
+        <div class="row" id="footerPage">
+          <div class="row">
+            <div class="col-md-12" id="footerPage1">
 
+              <p class="text-center"> <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+                <a href="#" class="fa fa-skype"></a>
+              </p>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4" id="footerPage2">
+              <h5>Contact Us</h5>
+              <h6>Plot 1 Kololo Hill Drive</h6>
+              <h6>P.O Box 1234, Kampala Uganda</h6>
+              <h6>Tel: 256723000001</h6>
+              <h6>Website: www.xploreUG.com</h6>
+              <h6>Email: info@xploreUG.com</h6>
+            </div>
+            <div class="col-md-4" id="footerPage2">
+
+
+            </div>
+            <div class="col-md-4 leftFooter" id="footerPage2">
+              <!-- <h5>Other Links</h5> -->
+              <ul>
+                <a href="#">
+                  <li>Home</li>
+                </a>
+                <a href="destinations.html">
+                  <li>Destinations</li>
+                </a>
+                <a href="#">
+                  <li>Book a Trip</li>
+                </a>
+                <a href="#">
+                  <li>Activities</li>
+                </a>
+                <a href="#">
+                  <li>Careers</li>
+                </a>
+              </ul>
+            </div>
+          </div>
+
+        </div>
       </div>
+
       <!-- end of footer -->
     </div>
     <script src="js/jquery-3.3.1.js" charset="utf-8"></script>

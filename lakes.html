@@ -3,6 +3,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css" type="text/css">
@@ -153,9 +154,19 @@
     <!-- <div class="col-md-12" id="lakesLocation"> -->
     <div class="col-md-12 lakesLocation" id="map">
       <h3>Location</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-        desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+      <div id="googleMap" style="width:100%;height:400px;"></div>
+
+         <script> //Elgon
+           function myMap() {
+             var mapProp= {
+               center:new google.maps.LatLng(35.8267, -1.314485),
+               zoom:5,
+             };
+             var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+           }
+         </script>
+
+         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKHwFQXWwjrzFL0b-aeGDk2qEbFHeMHwk&callback=myMap"></script>
 
     </div>
 
@@ -243,10 +254,10 @@
         <div class="col-md-4 leftFooter" id="footerPage2">
           <!-- <h5>Other Links</h5> -->
           <ul>
-            <a href="#">
+            <a href="index.html">
               <li>Home</li>
             </a>
-            <a href="#">
+            <a href="destinations.html">
               <li>Destinations</li>
             </a>
             <a href="#">

@@ -1,4 +1,37 @@
 /*  CSS For the nav bar*/
+
+.navbar-brand{
+  font-size: 35px;
+  color: black;
+
+}
+#navBarLakes{
+  background-color: #DAA652;
+  /* #D96409; */
+  border: solid white;
+  color: black;
+
+}
+#navBarRow{
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+#lakesNavList li a{
+  padding-top: 14px;
+
+    color: black;
+}
+#lakesNavList li a:hover {
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid #D96409;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    border-radius: 2px;
+
+}
 #parksnavbar {
   height: 100px;
   padding-top: 200px;
