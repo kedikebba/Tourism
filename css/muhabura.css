@@ -1,0 +1,68 @@
+/*  CSS For the nav bar*/
+#mountainsnavbar {
+  height: 100px;
+  padding-top: 200px;
+  color: black;
+}
+
+
+
+#mountainsNavlist  {
+  display: inline;
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#mountainsNavlist li {
+  float: right;
+  color: black
+}
+
+#mountainsNavlist li a {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* chnage the link color to #111(black)on hover */
+#mountainsNavlist li a:hover {
+  background-color: white;
+  border-bottom: 5px solid darkgreen;
+}
+
+#mountainsNavlist li a:active {
+  background-color: white;
+  border-bottom: 5px solid darkgreen;
+}
+
+
+#room1 img{
+  height: 170px;
+  width:390px;
+}
+
+#room2 img {
+  height: 170px;
+  width: 390px;
+}
+
+#room3 img {
+  height: 170px;
+  width: 390px;
+}
+
+#lakesGallery h3{
+  text-align: center;
+  font-style: italic;
+}
+#lakesGallery{
+  height: 350px;
+  /* border: solid black; */
+  margin-top: 0px;
+  padding-left: 50px;
+  padding-right: 30px;
+}

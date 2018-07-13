@@ -1,0 +1,68 @@
+/*  CSS For the nav bar*/
+#citynavbar {
+  height: 100px;
+  padding-top: 200px;
+  color: black;
+}
+
+
+
+#cityNavlist  {
+  display: inline;
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#cityNavlist li {
+  float: right;
+  color: black;
+}
+
+#cityNavlist li a {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* chnage the link color to #111(black)on hover */
+#cityNavlist li a:hover {
+  background-color: white;
+  border-bottom: 5px solid darkgreen;
+}
+
+#cityNavlist li a:active {
+  background-color: white;
+  border-bottom: 5px solid darkgreen;
+}
+
+
+#room1 img{
+  height: 170px;
+  width:390px;
+}
+
+#room2 img {
+  height: 170px;
+  width: 390px;
+}
+
+#room3 img {
+  height: 170px;
+  width: 390px;
+}
+
+#lakesGallery h3{
+  text-align: center;
+  font-style: italic;
+}
+#lakesGallery{
+  height: 350px;
+  /* border: solid black; */
+  margin-top: 0px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
