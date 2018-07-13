@@ -4,120 +4,271 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css" type="text/css">
   <link rel="stylesheet" href="css/lakes.css" type="text/css">
   <title></title>
 </head>
 
 <body>
-  <!-- Header -->
 
-  <!-- <div class="container-fluid">
-    <div class="row" id="lakesHeader">
-      <div class="col-md-12">
-        <header id="topLakes" class="header">
-          <div class="videoContLakes">
-            <video id="lakesVideo" autoplay loop muted>
-           <source src="img/video.mp4" type="video/mp4">
-           </video>
+
+
+  <div class="destTopPage">
+
+
+    <div id="destCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#destCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#destCarousel" data-slide-to="1"></li>
+        <li data-target="#destCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/waterfall1.jpg" alt="waterfall1">
+          <div class="carousel-caption">
+            <h3>Muchisson Falls</h3>
+            <p>Uganda is always so much fun!</p>
           </div>
-          <div class="lakesTopPageText">
-            <h1>Event Title</h1>
-            <h3>Tag Line</h3>
-        </header>
+        </div>
+
+        <div class="item">
+          <img src="img/waterfall2.jpg" alt="Bujaagali">
+          <div class="carousel-caption">
+            <h3>Bujaagali</h3>
+            <p>An experience at Bujaagali Falls is a Lifetime Experience</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/lake1.jpg" alt="L. Victoria">
+          <div class="carousel-caption">
+            <h3>Lake Victoria</h3>
+            <p>Nothing beats Lake Victoria at sunset</p>
+          </div>
         </div>
       </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#destCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+      <a class="right carousel-control" href="#destCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
     </div>
-  </div> -->
-
-
-
-  <div class="container-fluid">
-    <div class="row" id="lakesNavBar">
-      <div class="col-md-6">
-        <h1 id="lakesHeading"> Lakes and Rivers</h1>
-          </div>
-        <div class="col-md-6">
-        <ul id="lakesNavList">
-          <li><a href="#">Victoria</a></li>
-          <li><a href="#">Bunyonyi</a></li>
-          <li><a href="#">R. Nile</a></li>
-          <li><a href="#">R. Semliki</a></li>
-          <li><a href="#">R. Sezibwa</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12" id="lakesIntro">
-        <h3>Introduction</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="col-md-12" id="lakesPricing">
-        <h3>Pricing</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="col-md-12" id="lakesLocation">
-        <h3>Location</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-      </div>
-
-    </div>
-
-    <div class="row" id="lakesGallery">
-      <h3>Gallery</h3>
-      <div class="col-xs-6 col-md-3">
-        <div class="thumbnail thumbnailClassLakes" id="lakesColumn">
-
-          <img src="img/rwenzori.png" alt="Rwenzori Mountain">
-          <div class="caption">
-
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-          </div>
-
-        </div>
-      </div>
-      <div class="col-xs-6 col-md-3">
-        <div class="thumbnail thumbnailClassLakes" id="lakesColumn">
-
-          <img src="img/rwenzori.png" alt="Rwenzori Mountain">
-          <div class="caption">
-
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-          </div>
-
-        </div>
-      </div>
-      <div class="col-xs-6 col-md-3">
-        <div class="thumbnail thumbnailClassLakes" id="lakesColumn">
-
-          <img src="img/rwenzori.png" alt="Rwenzori Mountain">
-          <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-          </div>
-
-        </div>
-      </div>
-      <div class="col-xs-6 col-md-3">
-        <div class="thumbnail thumbnailClassLakes" id="lakesColumn">
-
-          <img src="img/rwenzori.png" alt="Rwenzori Mountain">
-          <div class="caption">
-            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-          </div>
-
-        </div>
-      </div>
 
   </div>
 
 
 
+
+
+  <div class="container-fluid">
+    <div class="row" id="navBarRow">
+
+      <div class="col-md-12">
+
+
+        <nav class="navbar navbar-default" id="navBarLakes">
+
+          <div class="navbar-header">
+            <a class="navbar-brand">Lakes and Rivers</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right" id="lakesNavList">
+            <li> <a href="#"class="active">Victoria</a> </li>
+            <li> <a href="#">Bunyonyi</a> </li>
+            <li> <a href="#">R. Semliki</a> </li>
+            <li> <a href="#">R. Sezibwa</a> </li>
+            <li> <a href="#">R. Nile</a> </li>
+          </ul>
+
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" id="lakesIntro">
+        <h3>Introduction</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+          desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+      </div>
+
+    </div>
+    <div class="row" id="lakesPricing">
+      <h3>Pricing</h3>
+      <div class="col-xs-4 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Single Bedroom
+          </div>
+          <div class="panel-body" id="room1">
+            <img src="img/singleBedroom.jpg" alt="Single Bedroom">
+          </div>
+          <div class="panel-footer">
+            350$ only
+          </div>
+        </div>
+      </div>
+      <!-- col-end for bedroom1 -->
+      <!-- start of bedroom2 -->
+      <div class="col-xs-4 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Double Bedroom
+          </div>
+          <div class="panel-body" id="room1">
+            <img src="img/singleBedroom.jpg" alt="Double bedroom">
+          </div>
+          <div class="panel-footer">
+            600$ only
+          </div>
+        </div>
+      </div>
+      <!-- end of bedroom2 -->
+      <div class="col-xs-4 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Outside Bedroom
+          </div>
+          <div class="panel-body" id="room1">
+            <img src="img/singleBedroom.jpg" alt="outside bed">
+          </div>
+          <div class="panel-footer">
+            400$ only
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+    <!-- <div class="col-md-12" id="lakesLocation"> -->
+    <div class="col-md-12 lakesLocation" id="map">
+      <h3>Location</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+        desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+
+    </div>
+
+  </div>
+
+  <div class="row" id="lakesGallery">
+    <h3>Gallery</h3>
+    <div class="col-xs-6 col-md-3">
+      <div class="thumbnail thumbnailClassLakes" id="lakesColumn">
+
+        <img src="img/rwenzori.png" alt="Rwenzori Mountain">
+        <div class="caption">
+
+          <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="thumbnail thumbnailClassLakes" id="lakesColumn">
+
+        <img src="img/rwenzori.png" alt="Rwenzori Mountain">
+        <div class="caption">
+
+          <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="thumbnail thumbnailClassLakes" id="lakesColumn">
+
+        <img src="img/rwenzori.png" alt="Rwenzori Mountain">
+        <div class="caption">
+          <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+      <div class="thumbnail thumbnailClassLakes" id="lakesColumn">
+
+        <img src="img/rwenzori.png" alt="Rwenzori Mountain">
+        <div class="caption">
+          <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid">
+    <div class="row" id="footerPage">
+      <!-- <div class="row"> -->
+        <div class="col-md-12" id="footerPage1">
+
+          <p class="text-center"> <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+            <a href="#" class="fa fa-skype"></a>
+          </p>
+
+        </div>
+      <!-- </div> -->
+      <div class="row">
+
+
+        <div class="col-md-4" id="footerPage2">
+          <h5>Contact Us</h5>
+          <h6>Plot 1 Kololo Hill Drive</h6>
+          <h6>P.O Box 1234, Kampala Uganda</h6>
+          <h6>Tel: 256723000001</h6>
+          <h6>Website: www.xploreUG.com</h6>
+          <h6>Email: info@xploreUG.com</h6>
+        </div>
+        <div class="col-md-4" id="footerPage2">
+
+
+        </div>
+        <div class="col-md-4 leftFooter" id="footerPage2">
+          <!-- <h5>Other Links</h5> -->
+          <ul>
+            <a href="#">
+              <li>Home</li>
+            </a>
+            <a href="#">
+              <li>Destinations</li>
+            </a>
+            <a href="#">
+              <li>Book a Trip</li>
+            </a>
+            <a href="#">
+              <li>Activities</li>
+            </a>
+            <a href="#">
+              <li>Careers</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
   <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/lakes.js"></script>

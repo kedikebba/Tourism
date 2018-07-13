@@ -6,6 +6,40 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+/* CSS For the the Navigation Bar, bottom Nav Bar */
+.navbar-brand{
+  font-size: 35px;
+  color: black;
+
+}
+#navBarLakes{
+  background-color: #DAA652;
+  /* #D96409; */
+  border: solid white;
+  color: black;
+
+}
+#navBarRow{
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+#lakesNavList li a{
+  padding-top: 14px;
+
+    color: black;
+}
+#lakesNavList li a:hover {
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid #D96409;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    border-radius: 2px;
+
+}
+
 #destRow{
   height: 350px;
   /* border: solid black; */
@@ -29,6 +63,7 @@
   width: 320px;
   border-radius: 1px;
   padding-top: 5px;
+
   /* margin-top: 10px; */
   /* box-shadow: 5px 5px 5px #888888; */
 
@@ -38,6 +73,11 @@
 -moz-box-shadow: 0 0 10px rgba(0,0,0, .65);
 box-shadow: 0 0 10px rgba(0,0,0, .65); */
 
+}
+#destColumn p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .thumbnailClass:hover {
@@ -56,3 +96,184 @@ box-shadow: 0 0 10px rgba(0,0,0, .65); */
 /* #videoTest {
 height: 250px;
 } */
+
+#footerPage{
+  height: 300px;
+
+}
+#footerPage1{
+  height: 100px;
+  background-color: #D96409;
+
+
+
+}
+#footerPage2{
+  height: 200px;
+  background-color: #515151;
+  color: white;
+  list-style: none;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+#footerPage1 a{
+  text-decoration: none;
+  float: right;
+}
+#footerPage2 ul a li{
+  list-style: none;
+  color: white;
+
+}
+#footerPage2 ul{
+float: right;
+padding-right: 40px;
+padding-top: 10px;
+
+}
+#footerPage2 h5{
+
+padding-right: 40px;
+
+}
+#footerPage2 ul a li:hover{
+  text-decoration: underline;
+}
+.rightFooter ul a li{
+  padding-right: 10px;
+}
+.fa {
+  padding: 30px;
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+  /* text-decoration: none; */
+  margin: 5px 2px;
+  /* border-radius: 100%; */
+
+}
+
+
+.fa:hover {
+    /* opacity: 0.7; */
+}
+
+.fa-facebook {
+  /* background: #3B5998; */
+  color: white;
+
+}
+
+.fa-twitter {
+  /* background: #55ACEE; */
+  color: white;
+}
+
+.fa-google {
+  /* background: #dd4b39; */
+  color: white;
+}
+
+.fa-linkedin {
+  /* background: #007bb5; */
+  color: white;
+}
+
+.fa-youtube {
+  /* background: #bb0000; */
+  color: white;
+}
+
+.fa-instagram {
+  /* background: #125688; */
+  color: white;
+}
+
+.fa-pinterest {
+  /* background: #cb2027; */
+  color: white;
+}
+.fa-snapchat-ghost {
+  /* background: #fffc00; */
+  color: white;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.fa-skype {
+  /* background: #00aff0; */
+  color: white;
+}
+
+/* Hovers ++++++++++++*/
+.fa-facebook:hover {
+  /* background: #3B5998; */
+  color: #3B5998;
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+
+}
+
+.fa-twitter:hover {
+  /* background: #55ACEE; */
+  color: #55ACEE;
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
+
+.fa-google:hover {
+  /* background: #dd4b39; */
+  color: #dd4b39;
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
+
+.fa-linkedin:hover {
+  /* background: #007bb5; */
+  color: #007bb5;
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
+
+.fa-youtube:hover {
+  /* background: #bb0000; */
+  color: #bb0000;
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
+
+.fa-instagram:hover {
+  /* background: #125688; */
+  color: #125688;
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
+
+.fa-pinterest:hover {
+  /* background: #cb2027; */
+  color: #cb2027;
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
+.fa-snapchat-ghost:hover {
+  /* background: #fffc00; */
+  color: #fffc00;
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
+
+.fa-skype:hover {
+  /* background: #00aff0; */
+  color: #00aff0;
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0);
+}
